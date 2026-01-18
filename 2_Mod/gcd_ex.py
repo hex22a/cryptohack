@@ -1,5 +1,5 @@
-a = 32321
-b = 26513
+in_p = 26513
+in_q = 32321
 
 # a > b
 
@@ -51,5 +51,5 @@ def gcdex(a, b, u, v):
 
     return r1, u, v
 
-print(gcdex(a, b, 0, 1))
-print(gcdex_r(a, b))
+print(gcdex(in_q, in_p, 0, 1))
+print(gcdex_r(in_q, in_p))
